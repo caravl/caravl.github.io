@@ -1,0 +1,121 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* navigation */
+.navigation_container {
+  display: block;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  border-bottom: 1px solid gray;
+  margin: 0px;
+  padding: 0px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 20px;
+  border-bottom: 1px solid gray;
+}
+.menu p {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0px;
+  color: gray;
+}
+
+
+
+
+
+.whole_blog {
+  display: flex;
+}
+/* blog */
+.blog_container {
+  display: block;
+  justify-content: center;
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 900px;
+}
+.blog_entry {
+  display: flex;
+  justify-content: flex-start;
+  width: 1000px;
+  height: 300px;
+  margin: 20px;
+}
+.blog_entry img {
+  width: 400px;
+  height: 250px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.blog_description {
+  display: block;
+  justify-content: flex-start;
+  width: 500px;
+  height: 250px;
+  margin-right: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.blog_description h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: green;
+  font-size: 30px;
+  margin: 0px;
+  font-family: italic;
+}
+.blog_description p {
+  font-style: italic;
+  font-size: 17px;
+  width: 300px;
+}
+
+/* about me */
+.about_me_container {
+  display: block;
+  justify-content: center;
+  width: 280px;
+  height: 500px;
+  margin-top: 100px;
+  margin-left: 40px;
+  border: 1px solid gray;
+
+}
+.about_me_intro h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-family: italic;
+}
+.about_me_summary {
+  margin-left: 13px;
+  width: 250px;
+}
+.about_me_summary p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: lighter;
+}
+
+
+
+
+
+/* footer container */
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}

@@ -1,0 +1,242 @@
+body {
+  font-family: 'Montserrat';
+  font-weight: lighter;
+  margin: 0px;
+}
+
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+/* navigation */
+.navigation_container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: black;
+  color: white;
+}
+.menu_container {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.navigation_container h1 {
+  padding: 10px;
+}
+.menu_container a {
+  display: inline;
+  padding: 30px;
+}
+
+
+
+
+
+/* landing container */
+.landing_container {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 500px;
+  padding-top: 200px;
+}
+.landing_container p {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* profile container */
+.profile_container {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile_intro {
+  display: block;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.profile_intro p {
+  font-weight: 400;
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* link button
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* portfolio container */
+.portfolio_container {
+  display: block; /* new line */
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 800px;
+  color: white;
+}
+.portfolio_title { /* centers title */
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  padding-top: 120px;
+}
+.portfolio_box { /* inline boxes */
+  display: flex;
+  justify-content: center;
+}
+.portfolio_example { /* centers text inside box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+}
+.portfolio_example a {
+  color: black;
+}
+.portfolio_example img {
+  width: 400px;
+  height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+/* contact container */
+.contact_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  height: 750px;
+}
+.contact_intro, .email {
+  display: block;
+  justify-content: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.contact_container h4 {
+  font-size: 70px;
+  margin: 0px;
+}
+.contact_container h6 {
+  font-size: 30px;
+  margin: 0px;
+}
+.contact_container p {
+  font-size: 30px;
+}
+.email a {
+  margin: 0px;
+  color: black;
+}
+
+/* email box */
+.email a {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.email a:hover, a:active {
+      background-color: red;
+}
+/* email box end */
+
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
